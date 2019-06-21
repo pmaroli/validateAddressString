@@ -1,0 +1,16 @@
+{
+  "name": "validateAddressString",
+  "version": "1.0.0",
+  "description": "A function that parses an address that is in string format, then validates it using the USPS Shipping API.",
+  "main": "validateAddressString.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parse-address": "^1.1.2",
+    "usps-webtools": "^1.0.3"
+  }
+}
